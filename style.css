@@ -12,6 +12,13 @@ body{
 
 
 }
+
+header{
+    margin-top: 50px;
+
+}
+
+
 .container{
     display: flex;
     flex-direction: row;
@@ -23,13 +30,14 @@ body{
 
 .intro{
     flex: 1;
-    margin-right: 20px;
+   
 }
 .main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 70px;
 
 }
 
@@ -59,4 +67,10 @@ h2{
 a{
     color: brown;
     text-decoration: none;
+}
+footer{
+    margin-top: 50px;
+}
+aside{
+    margin-top: 70px;
 }
