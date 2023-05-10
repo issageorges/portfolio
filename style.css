@@ -1,0 +1,62 @@
+
+html body{
+    height: 100vh;
+    margin: 0%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.intro{
+    flex: 1;
+    margin-right: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+img{
+
+    border: 5px solid black;
+    border-radius: 50%;
+    box-shadow: 0 0 30px;
+  
+}
+
+h1{
+    color: brown;
+    font-size: 50px;
+    
+}
+p{
+    color: chocolate;
+    font-weight: 700px;
+    
+}
+h2{
+    color: brown;
+    
+}
+a{
+    color: brown;
+    text-decoration: none;
+}
